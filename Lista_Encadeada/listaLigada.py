@@ -219,16 +219,16 @@ class ListaLigada:
 
             return '[] '
 
-        string_final = '['
+        itens_lista_encadeada = '['
         atual = self.__primeira
 
         for _ in range(0, self.__total_elementos-1):
 
-            string_final = string_final + atual.elemento + ', '
+            itens_lista_encadeada = itens_lista_encadeada + atual.elemento + ', '
             atual = atual.proxima
 
         self.__ultima = atual
         self.__ultima.proxima = None
-        string_final = string_final + f'{atual.elemento}]'
+        itens_lista_encadeada = itens_lista_encadeada + f'{atual.elemento}]'
 
-        return string_final
+        return itens_lista_encadeada
