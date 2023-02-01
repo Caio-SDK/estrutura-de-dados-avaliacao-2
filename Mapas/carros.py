@@ -1,4 +1,7 @@
+# Classe Carro
 class Carro:
+
+
     def __init__(self, nome:str, marca:str, cor:str, ano:int):
         self.__nome = nome
         self.__marca = marca
@@ -6,7 +9,7 @@ class Carro:
         self.__ano = ano
     
     
-    # Nome
+    # Nome getter
     @property
     def nome(self):
         return self.__nome
@@ -16,7 +19,7 @@ class Carro:
         self.__nome = valor
     
     
-    # Marca
+    # Marca getter
     @property
     def marca(self):
         return self.__marca
@@ -26,7 +29,7 @@ class Carro:
         self.__marca = valor
         
         
-    # Cor
+    # Cor getter
     @property
     def cor(self):
         return self.__cor
@@ -36,7 +39,7 @@ class Carro:
         self.__cor = valor
         
         
-    # Ano
+    # Ano getter
     @property
     def ano(self):
         return self.__ano
@@ -46,4 +49,5 @@ class Carro:
         self.__ano = valor
         
     def __str__(self):
+        
         return f'{self.__nome}, da marca {self.__marca}, de cor {self.__cor}, do ano {self.__ano}'

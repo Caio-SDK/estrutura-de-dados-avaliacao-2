@@ -1,21 +1,21 @@
-from arvore import ArvoreBinariaBusca
+from Arvore.arvore import ArvoreBinariaBusca
         
         
-def teste_main_arvore():
+def _teste_main_arvore():
 
     # Iniciando uma Arvore
     arvore = ArvoreBinariaBusca()
 
     # Testes
-    arvore.inserir(2)
-    arvore.inserir(3)
-    arvore.inserir(1)
-    arvore.inserir(4)
-    arvore.inserir(5)
-    arvore.inserir(7)
-    arvore.inserir(6)
-    arvore.inserir(0)
-    arvore.imprimir_ordem(arvore.raiz)
+    arvore._inserir(2)
+    arvore._inserir(3)
+    arvore._inserir(1)
+    arvore._inserir(4)
+    arvore._inserir(5)
+    arvore._inserir(7)
+    arvore._inserir(6)
+    arvore._inserir(0)
+    arvore._imprimir_ordem(arvore.raiz)
 
     # Exibição
     print(list(reversed(range(1,11))))

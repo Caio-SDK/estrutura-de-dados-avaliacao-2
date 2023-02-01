@@ -8,7 +8,7 @@ class Fila:
     
 
      # Método para verificar se a fila está vázia ou não
-    def empty(self):
+    def _empty(self):
 
         if self.__estrutura:
 
@@ -20,15 +20,15 @@ class Fila:
     
 
     # Método para adicionar algum objeto a fila
-    def add(self, objeto):
+    def _add(self, objeto):
 
         self.__estrutura.append(objeto)
     
 
     # Método para remover algum objeto a fila
-    def pop(self):
+    def _pop(self):
 
-        if self.empty():
+        if self._empty():
 
             print("A fila já está vazia!!!")
         

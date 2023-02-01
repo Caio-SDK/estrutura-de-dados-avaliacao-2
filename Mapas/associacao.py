@@ -1,4 +1,4 @@
-from carros import Carro
+from Mapas.carros import Carro
 
 # Classe Associação
 class Associacao:

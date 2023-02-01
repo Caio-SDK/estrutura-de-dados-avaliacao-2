@@ -1,4 +1,4 @@
-from celulaLista import CelulaLista
+from Lista_Encadeada.celulaLista import CelulaLista
 
 # Classe Lista Ligada
 class ListaLigada:

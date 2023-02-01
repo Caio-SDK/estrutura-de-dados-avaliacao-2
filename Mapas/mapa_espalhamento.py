@@ -1,11 +1,15 @@
-from associacao import Associacao
+from Mapas.associacao import Associacao
 
 
+# Classe Mapa Espalhamento
 class MapaEspalhamento:
+
     def __init__(self):
+
         self.__tabela_hash = []
         
         for _ in range(0,30):
+            
             self.__tabela_hash.append([])
         
         self.__tamanho = 0

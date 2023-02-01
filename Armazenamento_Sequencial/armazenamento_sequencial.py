@@ -14,7 +14,7 @@ class ArmazenamentoSequencial:
     
 
     # Método para remover algum objeto a armazenamnto_sequencial
-    def _pop(self, index):
+    def _remove(self, index):
         
         try:
 

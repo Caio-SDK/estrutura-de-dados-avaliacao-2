@@ -1,5 +1,5 @@
-from associacao import Associacao
-from carros import Carro
+from Mapas.associacao import Associacao
+from Mapas.carros import Carro
 
 class Mapa:
     def __init__(self):

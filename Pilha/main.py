@@ -1,15 +1,17 @@
-from pilha import Pilha
+from Pilha.pilha import Pilha
 
 
-# Iniciando uma pilha
-pilha = Pilha()
+def _teste_main_pilha():
 
-# Testes
-pilha.add(2)
-pilha.add(3)
-pilha.pop()
-pilha.pop()
-pilha.add(1)
+    # Iniciando uma pilha
+    pilha = Pilha()
 
-# Exibição
-print(pilha)
+    # Testes
+    pilha.add(2)
+    pilha.add(3)
+    pilha.pop()
+    pilha.pop()
+    pilha.add(1)
+
+    # Exibição
+    print(pilha)

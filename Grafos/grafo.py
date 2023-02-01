@@ -18,13 +18,13 @@ class Grafo:
             self.__matriz.append(linha)
         
     # Método para adicionar uma aresta
-    def adicionar_aresta(self, no_primario, no_secundario):
+    def _adicionar_aresta(self, no_primario, no_secundario):
 
         self.__matriz[no_primario-1][no_secundario-1] = 1
         self.__matriz[no_secundario-1][no_primario-1] = 1
     
     # Método para verificar se uma aresta existe
-    def verificar_aresta(self, no_primario, no_secundario):
+    def _verificar_aresta(self, no_primario, no_secundario):
 
         if self.__matriz[no_primario-1][no_secundario-1] == 1:
 
